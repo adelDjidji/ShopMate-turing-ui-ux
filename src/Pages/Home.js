@@ -4,7 +4,8 @@ import Footer from "../Containers/Footer";
 import MenuTop from "../Containers/MenuTop";
 import Filters from "../Containers/Filters";
 import CardItem from "../Components/Card";
-import  Button from "../Components/Button"
+import Button from "../Components/Button";
+import Input from "../Components/Input";
 import "../Styles/App.css";
 
 export default () => {
@@ -12,7 +13,7 @@ export default () => {
     <div>
       <Header />
       <MenuTop />
-      <div className="container top">
+      <section className="container top">
         <div className="row">
           <h1>Mens Wear</h1>
         </div>
@@ -42,9 +43,9 @@ export default () => {
             <h3>ASOS basic tops</h3>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="container row">
+      <section className="container row">
         <div className="col-lg-3">
           <Filters />
         </div>
@@ -98,8 +99,8 @@ export default () => {
             picture="Images/images-shirt6.png"
           />
         </div>
-      </div>
-      <div className="row">
+      </section>
+      <section className="row">
         <div className="col-lg-4">
           <CardItem
             title="Men's shirt offer 2 "
@@ -133,12 +134,31 @@ export default () => {
             picture="Images/images-shirt9.png"
           />
         </div>
-      </div>
-      <div className="row footerCover">
-            <h1 className="serif">Converse</h1>
-            <h2>Explore the styles tough enough to handle all your workouts</h2>
-            <Button label="Shop brand" white />
-      </div>
+      </section>
+
+      <section className="row footerCover">
+        <h1 className="serif">Converse</h1>
+        <h2>Explore the styles tough enough to handle all your workouts</h2>
+        <Button label="Shop brand" white />
+      </section>
+
+      <section className="row margin-top subscribe">
+        <div className="col-lg-7">
+          <span className="">
+            SUBSCRIBE FO SHOP NEWS , UPDARES AND SPECIAL OFFERS
+          </span>
+        </div>
+        <Input
+        theme="white"
+        placeholder="Your email here"
+        iconSrc="Icon/icons-email-black.png"
+        widthCol={3}
+      />
+        <div className="col-lg-2">
+          <Button style={{marginLeft:10}} label="Subscribe" />
+        </div>
+        
+      </section>
       <Footer />
     </div>
   );

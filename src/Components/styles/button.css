@@ -16,4 +16,10 @@
     background-color: white;
     font-size: 18pt;
     padding: 14pt 30pt;
+    transition: all ease .3s;
+}
+.btn.white:hover{
+    color: black;
+    /* background-color: var(--lightGray); */
+    box-shadow: 2px 2px 3px gray;
 }

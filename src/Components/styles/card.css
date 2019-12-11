@@ -24,9 +24,12 @@
     height: 406px;
     background-color: #fdfdfdf0;
     padding: 10%;
-    /* padding-top: 41%; */
+    padding-top: 41%;
     opacity: 0;
     transition: all ease .3s
+}
+.card-item .card-up.custom{
+    padding: 6%;
 }
 .card-item:hover .card-up{
    opacity: 1;

@@ -19,7 +19,7 @@ export default function InputSearch({ widthCol = 4, onSearch }) {
       />
       <input
         ref={inputRef}
-        className="search-input"
+        className="dark-input"
         type="text"
         placeholder="Search anything"
         // onChange={handleInputChange}
