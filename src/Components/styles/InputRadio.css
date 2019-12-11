@@ -1,0 +1,46 @@
+.custom-radio{
+    background-image: none;
+    margin-inline-end: 5px !important;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+    overflow: hidden;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: .2s ease-in-out;
+    transition-property: background-color,border,box-shadow;
+    box-sizing: border-box;
+    border-radius: 50%;
+    outline: none !important;
+    padding: 3pt;
+    border: solid 6px white;
+}
+.custom-radio:checked{
+    box-shadow: 0px 0px 0px 1px var(--gray);
+}
+input.custom-radio.blue{
+    background-color: var(--blue);
+}
+input.custom-radio.red{
+    background-color: var(--red);
+}
+input.custom-radio.cyan{
+    background-color: var(--cyanGreen);
+}
+input.custom-radio.orange{
+    background-color: var(--orange);
+}
+input.custom-radio.yellow{
+    background-color: var(--yellow);
+}
+input.custom-radio.green{
+    background-color: var(--green);
+}
+input.custom-radio.purple{
+    background-color: var(--purple);
+}

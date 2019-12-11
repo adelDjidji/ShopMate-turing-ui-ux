@@ -1,0 +1,1 @@
+button.btn-check{padding:6pt 17pt;margin:4px;background-color:var(--lightGray);border:none;border-radius:4px;font-weight:100;font-family:sans-serif;outline:0}button.btn-check.selected{background-color:var(--red);color:#fff}

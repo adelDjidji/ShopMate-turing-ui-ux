@@ -1,0 +1,19 @@
+.btn, .btn:focus, .btn:active{
+    background-color: var(--red);
+    border: none;
+    color: white;
+    padding: 9pt 25pt;
+    border-radius: 25pt;
+    cursor: pointer;
+    outline: none;
+    font-size: 13pt;
+}
+.btn:hover{
+    color: black;
+}
+.btn.white{
+    color: var(--red);
+    background-color: white;
+    font-size: 18pt;
+    padding: 14pt 30pt;
+}

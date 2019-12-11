@@ -1,0 +1,33 @@
+.checkbox-group .checkbox-item{
+    display: block;
+    cursor: pointer;
+    
+}
+.checkbox-group .checkbox-item label{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 16pt;
+}
+.checkbox-item input{
+    margin-block-end: 8pt;
+    margin-inline-end: 6pt;
+    outline: none;
+    width: 23px;
+    height: 25px;
+    flex: 0 0 20px;
+    overflow: hidden;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    background-color: var(--lightGray);
+    border: solid 1px var(--lightGray); 
+    border-radius: 6px;
+    
+}
+.checkbox-item input[type="checkbox"]:checked{
+    outline: none;
+    background-color:var(--blue);
+    border: none;
+    border-radius: 16px;
+    background-image: url("/Icon/check-box.svg");
+    background-position: 50%;
+}

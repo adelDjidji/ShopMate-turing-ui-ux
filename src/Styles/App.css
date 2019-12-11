@@ -1,0 +1,139 @@
+:root{
+  --red:#f62f5e;
+  --black:#2e2e2e;
+  --darkGray:#969696;
+  --gray:#b4b4b4;
+  --lightGray:#efefef;
+  --blue:#6eb2fb;
+  --cyanGreen:#00d3ca;
+  --orange:#fe5c07;
+  --yellow:#f8e71c;
+  --green:#7ed321;
+  --purple:#9013fe;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(montserrat-bold.ttf);
+}
+body{
+  font-family: "montserrat";
+  background-color:var(--lightGray)
+}
+a{
+  color: var(--red);
+  text-decoration: none;
+  
+}
+a:hover{
+  color: rgb(128, 29, 18);
+  text-decoration: none;
+}
+.header{
+  padding: 19px 27px;
+  font-size: 15pt;
+}
+.badge-red{
+  background: var(--red);
+}
+.badge-white{
+  background: white;
+  color: var(--red);
+}
+.badge-price{
+  height: 21pt;
+  padding: 5px 7px;
+  margin-left: -7pt;
+  width: 21pt;
+  border-radius: 50%;
+  font-size: 13pt;
+  position: absolute;
+  top: -7pt;
+}
+.menuTop{
+  background: var(--black);
+  padding: 18pt;
+}
+.menuTop .menu-items{
+  margin-left: 61pt;
+  font-size: 15pt;
+}
+.search-input{
+  width: 244pt;
+  padding: 8pt 42pt;
+    border: none;
+    border-radius: 22pt;
+    color: white;
+    background-color: #9c9a9a;
+    font-size: 13pt;
+}
+::placeholder{
+  color: white;
+}
+.h1{
+  font-size: 25pt;
+}
+.red{
+color: var(--red);
+}
+img.icon{
+  width: 27px;
+}
+.container.top{
+  background-color: #9E9E9E;
+  margin: 25pt auto;
+  padding: 53pt;
+}
+.row{
+  margin:auto !important;
+}
+.filter-title{
+  color: var(--gray);
+}
+img {
+  display: block;
+}
+.flex{
+  display: flex;
+}
+.filters{
+  /* border: solid .1px #b4b4b482; */
+  box-shadow: 0px 2px 4px #b4b4b482;
+  background-color: white;
+}
+.filters .filters-header,.filters .filters-body {
+  padding: 12pt;
+}
+.filters-header{
+  background: #cac5c538;
+  border-bottom: solid 1px #80808021;
+}
+.container{
+  width: 100%;
+}
+.h3{
+  font-size:24px;
+  padding-block-start: 3pt;
+  display: inline-block;
+}
+.footerCover{
+  background: url(/Images/images-shoe2.png) no-repeat;
+  height: 450px;
+  width: 97%;
+  background-position: left;
+  background-size: 100%;
+  padding: 40pt;
+  color: white;
+  box-shadow: 0px 2px 3px var(--gray);
+}
+.footerCover h2{
+  width: 600px;
+  line-height: 1.5;
+  margin-block-end: 30pt;
+}
+.serif{
+  font-family: initial;
+    font-size: 45pt;
+    font-weight: 700;
+    color: white;
+}
