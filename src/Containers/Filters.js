@@ -15,6 +15,7 @@ export default ({ NbItems = 0 }) => {
   };
 
   const handleColorChange = value => {
+    console.log(value)
     setcolor(value);
   };
   const handleSizeChange = value => {

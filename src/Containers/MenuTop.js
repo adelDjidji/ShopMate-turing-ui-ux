@@ -20,7 +20,7 @@ export default () => {
           <b style={{ marginRight: "15pt", color: "white" }}>Brands</b>
         </span>
       </div>
-      <InputSearch onSearch={handleSearch} />
+      <InputSearch animated={true} onSearch={handleSearch} />
       <div className="col-lg-1" style={{ marginTop: "4pt" }}>
       <ShopBadge theme="white" number= {6} />
       </div>

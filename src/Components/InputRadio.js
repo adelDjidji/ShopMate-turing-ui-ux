@@ -6,5 +6,5 @@ export default ({theme= "blue", onChange, checked= false, name}) => {
 //     e.preventDefault()
 //     onChange&&onChange(e.target.checked)
 // }
-  return <input checked={checked} name={name} value={name} onChange={onChange} className={`custom-radio ${theme}`} type="radio"/>
+  return <input checked={checked} name={name} value={theme} onChange={onChange} className={`custom-radio ${theme}`} type="radio"/>
 }
