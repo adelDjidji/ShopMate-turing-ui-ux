@@ -61,16 +61,29 @@ a:hover{
 input, button{
   outline: none !important;
 }
-.dark-input{
-  width: 244pt;
-  padding: 8pt 42pt;
+.search-input{
     border: none;
     border-radius: 22pt;
     color: white;
     background-color: #9c9a9a;
     font-size: 13pt;
+    transition: all ease .2s;
 }
-.dark-input::placeholder{
+.open-input .search-input{
+  width: 244pt;
+  padding: 8pt 42pt;
+}
+.close-input .search-input{
+  width: 0;
+  padding: 0;
+}
+.close-input img.close{
+  display: none;
+}
+.search-input-container .icon{
+  cursor: pointer;
+}
+.search-input::placeholder{
   color: white;
 }
 .white-input{
@@ -78,7 +91,7 @@ input, button{
   padding: 8pt 42pt;
     border: none;
     border-radius: 22pt;
-    color:  var(--gray);;
+    color:  black;
     background-color: white;
     font-size: 13pt;
 }
@@ -105,7 +118,7 @@ img.icon{
 .filter-title{
   color: var(--gray);
 }
-img {
+img:not(.icon) {
   display: block;
 }
 .flex{
@@ -199,4 +212,7 @@ img {
     font-size: 13pt;
     padding: 20pt;
     padding-bottom: 38pt;
+}
+.hand{
+  cursor: pointer;
 }
